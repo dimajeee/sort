@@ -1,3 +1,0 @@
-/Users/dmitrijsterligov/project/sort/build/CMakeFiles/bubble.dir
-/Users/dmitrijsterligov/project/sort/build/CMakeFiles/edit_cache.dir
-/Users/dmitrijsterligov/project/sort/build/CMakeFiles/rebuild_cache.dir
