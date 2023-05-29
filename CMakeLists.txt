@@ -7,3 +7,9 @@ add_executable(bubble
     bubble/bubble.h 
     bubble/bubbleSort.cpp
 )
+
+add_executable(choice
+    choice/choice.cpp
+    choice/choice.h
+    choice/choiceSort.cpp
+)
