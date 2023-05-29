@@ -1,27 +1,29 @@
 #include <iostream>
-#include "bubble.h"
+#include "insert.h"
 
 using namespace std;
 
 int main()
 {
-    int length = 10;
+    const int length = 10;
     int *arr = new int[length];
 
     for(int i = 0; i < length; ++i)
     {
-        arr[i] = rand() % 5;
+        arr[i] = rand() % 10;
         cout << arr[i] << "\t";
     }
 
     cout << endl;
 
-    bubbleSort(arr, length);
+    insertSort(arr, length);
 
-    for(int i = 0; i < length; ++i)
+    for(int i = 0; i < length; ++i) 
     {
         cout << arr[i] << "\t";
     }
-    
+
+    cout << endl;
+
     return 0;
 }

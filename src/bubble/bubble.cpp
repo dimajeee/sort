@@ -1,5 +1,5 @@
 #include <iostream>
-#include "choice.h"
+#include "bubble.h"
 
 using namespace std;
 
@@ -10,18 +10,18 @@ int main()
 
     for(int i = 0; i < length; ++i)
     {
-        arr[i] = rand() % 10;
+        arr[i] = rand() % 5;
         cout << arr[i] << "\t";
     }
 
     cout << endl;
 
-    choiceSort(arr, length);
+    bubbleSort(arr, length);
 
     for(int i = 0; i < length; ++i)
     {
         cout << arr[i] << "\t";
     }
-    
+    delete arr;
     return 0;
 }
