@@ -23,6 +23,6 @@ int main()
         cout << arr[i] << "\t";
     }
     
-    delete arr;
+    delete [] arr;
     return 0;
 }

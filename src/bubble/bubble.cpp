@@ -10,7 +10,7 @@ int main()
 
     for(int i = 0; i < length; ++i)
     {
-        arr[i] = rand() % 5;
+        arr[i] = rand() % 10;
         cout << arr[i] << "\t";
     }
 
@@ -22,6 +22,6 @@ int main()
     {
         cout << arr[i] << "\t";
     }
-    delete arr;
+    delete [] arr;
     return 0;
 }
