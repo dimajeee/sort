@@ -19,3 +19,9 @@ add_executable(insert
     src/insert/insert.h
     src/insert/insertSort.cpp
 )
+
+add_executable(Hoara
+    src/Hoara/Hoara.cpp
+    src/Hoara/Hoara.h
+    src/Hoara/HoaraSort.cpp
+)

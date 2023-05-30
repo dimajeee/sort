@@ -1,0 +1,1 @@
+void HoaraSort(int *arr, const int arrLength);
